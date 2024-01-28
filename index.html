@@ -1,75 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mario Aviles</title>
-    <link rel="stylesheet" href="/assets/index-ec607d14.css">
-  </head>
-  <body>
+  <link rel="stylesheet" href="/assets/index-b4dc20f6.css">
+</head>
+
+<body>
 
     <header>
         <h1>Mario Aviles</h1>
     </header>
 
+    <div class="background"></div>
     <main>
         <section>
-            <div class="container">
-                <h2>Hi!</h2>
-                <p>
-                    I'm a Full Stack Web Developer and musician based out of Minneapolis.
-                    I love learning new technologies and challenging myself to grow as a developer.
-                </p>
+            <div class="sideBySide">
+                <div class="wrapper">
+                    <div class="panel">
+                        <h2>Hi!</h2>
+                        <p>
+                            I'm a Full Stack Web Developer and Musician based out of Minneapolis.
+                            I have a deep passion for learning new technologies and challenging myself to grow
+                            as a developer.
+                        </p>
+                    </div>
+                    <div class="topShadow"></div>
+                    <div class="bottomHeavyShadow"></div>
+                    <div class="bottomShadow"></div>
+                </div>
+                <div class="wrapper headShot">
+
+                    <div class="panel">
+                        <div class="fakeImg"></div>
+                    </div>
+
+                    <div aria-hidden="true" class="topShadow"></div>
+                    <div aria-hidden="true" class="bottomHeavyShadow"></div>
+                    <div aria-hidden="true" class="bottomShadow"></div>
+                </div>
             </div>
-            <div class="container">
-                <h2>About Me</h2>
-                <p>
-                    I've been programming as long as I can remember, starting with text-adventures written in Batch
-                    on the family computer as a kid, to learning the basics of HTML and CSS in middle school, to spending
-                    learning game development with Unity in high school, to today where I'm a Freelance web developer
-                </p>
-            
+
+            <div class="container wrapper">
+                <div class="panel">
+                    <h2>About Me</h2>
+                    <p>
+                        I've been programming for as long as I can remember.
+                        From text-adventure games written in Batch on the family computer,
+                        to making fun little tools to streamline my daily tasks, to more mature Unity
+                        game development, to Fullstack Web Development which I've been building a career out of
+                        for the past few years.
+                        <br>
+                        In that time I've been contracted to work with several local businesses, bands, artists
+                        and start-ups.
+                    </p>
+                </div>
+                <div aria-hidden="true" class="topShadow"></div>
             </div>
         </section>
 
-        <section>
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Templating Engine</h3>
-                <p>
-                    This is a tool that helps you to quickly produce pdf forms from templates
-                    mostly existing to speed up workflow for myself and coworkers. 
-                </p>
-                <h4>Tech Used</h4>
-                <ul class="techUsedList">
-                    <li><i aria-hidden="true"><img class="techIcon" src="/svelte-logo.svg" alt="Svelte Logo"></i> SvelteJS</li>
-                    <li><i aria-hidden="true"><img class="techIcon" src="/ts-logo.svg" alt="Svelte Logo"></i> Typescript</li>
-                </ul>
+        <section class="wrapper container">
+            <div class="panel">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Templating Engine</h3>
+                    <p>
+                        This templating engine is a tool that helps to quickly produce documents pdf from templates
+                        mostly existing to speed up my own work at my day job.
+                    </p>
+                    <h4>Tech Used</h4>
+                    <ul class="techUsedList">
+                        <li><i aria-hidden="true"><img class="techIcon" src="/svelte-logo.svg" alt="Svelte Logo"></i>
+                            SvelteJS</li>
+                        <li><i aria-hidden="true"><img class="techIcon" src="/ts-logo.svg" alt="Svelte Logo"></i>
+                            Typescript</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3>Kitsuragi</h3>
+                    <p>
+                        Kitsuragi is an open source programming language that I have very slowly been developing
+                        as a way to get more familiar with C++ and learn more about assembly and compilers.
+                        The language currently only features very basic functionality, but the ultimate goal of the
+                        project is to rewrite the compiler in Kitsuragi.
+                    </p>
+                    <h4>Tech Used</h4>
+                    <ul class="techUsedList">
+                        <li>C++</li>
+                        <li>CMake</li>
+                    </ul>
+                </div>
+
+                <div class="project">
+                    <h3><a href="/Chess-React">Chess-React</a></h3>
+                    <p>This is a small chess web app that I made as a way to get more familiar with
+                        React. Currently, it only has basic functionality, but I plan to create a chess
+                        bot to go along with this page
+                    </p>
+                    <h4>Tech Used</h4>
+                    <ul class="techUsedList">
+                        <li>React</li>
+                        <li><i aria-hidden="true"><img class="techIcon" src="/ts-logo.svg"
+                                    alt="Svelte Logo"></i>Typescript</li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="project">
-                <h3>Kitsuragi</h3>
-                <p>
-                    Kitsuragi is an open source programming language that I have very slowly been developing
-                    as a way to get more familiar with C++ and learn more about assembly and compilers.
-                    The language currently only features very basic functionality, but the ultimate goal of the
-                    project is to rewrite the compiler in Kitsuragi.
-                </p>
-                <h4>Tech Used</h4>
-                <ul class="techUsedList">
-                    <li>C++</li>
-                    <li>CMake</li>
-                </ul>
-            </div>
-
-            <div class="project">
-                <h3></h3>
-            </div>
-
-
+            <div class="topShadow"></div>
         </section>
 
 
@@ -77,5 +121,6 @@
     <footer>
         <p>Copyright 2024 Mario Aviles</p>
     </footer>
-  </body>
+</body>
+
 </html>
